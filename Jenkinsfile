@@ -16,7 +16,7 @@ pipeline {
                 sh 'npm install'
             }
         }
-        stage('Test') {
+        stage('Finished') {
             steps {
                 echo 'Completed All the Testing.'
             }
